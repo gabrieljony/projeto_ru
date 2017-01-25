@@ -1,0 +1,82 @@
+/*
+* 
+* @author Gabriel Jony
+* @project RU
+* @version 0.1
+*/
+
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+/* ========================= layout ======================== */
+html{
+	position: relative;
+  	min-height: 100%;
+}
+
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	margin-bottom: 60px;
+}
+
+/* -- Barra de navegação -- */
+.navbar-brand{
+	padding: 0;
+}
+
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: #C0C0C0;
+	margin: 16px 10px;
+}
+
+
+
+/* -- Imagem de capa -- */
+.capa {
+	margin-top: 50.91px;
+	width: 100%;
+}
+
+.menu_lateral{
+	width: 100%;
+}
+
+.jumbotron{
+	margin-top: 20px;
+}
+
+.texto-capa {
+	text-align: center;
+	color: black;
+}
+
+/* -- rodape -- */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: black;
+}
+
+
+/* ========================= Tipografia ======================== */
+h1 {
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+#rodape h4 {
+	color: #919496;
+	font-size: 12px;
+	text-align: center;
+	/*text-transform: uppercase; DEIXA AS LETRAS MAIUSCULA*/
+}
