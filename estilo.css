@@ -1,0 +1,30 @@
+/*
+* 
+* @author Gabriel Jony
+* @project RU
+* @version 0.1
+*/
+
+/* ========================= layout ======================== */
+
+
+/* -- Barra de navegação -- */
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: #C0C0C0;
+	margin: 16px 10px;
+}
+
+/* -- Imagem de capa -- */
+.capa {
+	display: table;
+	width: 100%;
+}
+
+.texto-capa {
+	text-align: center;
+	color: black;
+	display: table-cell;
+	vertical-align: middle;
+}
