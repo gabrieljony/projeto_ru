@@ -45,7 +45,7 @@ $erro_email    = isset($_GET['erro_email']) ? $_GET['erro_email'] : 0;
 			<div class="form-group">
 			  <label for="telefone" class="col-2 col-form-label">Telefone</label>
 			  <div class="col-10">
-			    <input class="form-control" type="tel" value="(xx)xxxx-xxxx" id="telefone">
+			    <input class="form-control" type="tel" placeholder="(xx)xxxx-xxxx" id="telefone" maxlength="10">
 			  </div>
 			</div>
 			
